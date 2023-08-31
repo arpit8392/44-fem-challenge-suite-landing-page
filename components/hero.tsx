@@ -18,16 +18,16 @@ const metrics = [
 
 const Hero = () => {
 	return (
-		<div className='grid grid-cols-1 gap-14 mt-8 mb-56 md:mb-72 lg:mb-56 lg:grid-cols-6 lg:gap-0'>
+		<div className='grid grid-cols-1 gap-14 mt-8 mb-56 md:mb-72 lg:grid-cols-6 lg:gap-0'>
 			<div className='flex flex-col gap-14 relative lg:col-span-5'>
 				<div className='space-y-8 z-50 md:mt-24'>
-					<p className='text-darkBlue text-[38px]/[44px] tracking-[-0.528px] md:text-[56px]/[64px] lg:text-[72px]/[78px] lg:tracking-[-1px] '>
+					<h1 className='text-darkBlue text-[38px]/[44px] tracking-[-0.528px] md:text-[56px]/[64px] lg:text-[72px]/[78px] lg:tracking-[-1px] '>
 						A{' '}
 						<span className='font-bold relative before:absolute before:content-curved-pattern-1 before:-z-10 before:-top-10 lg:before:-top-20 before:right-0'>
 							super solution
 						</span>{' '}
 						<br /> for your <span className='font-bold'>business.</span>
-					</p>
+					</h1>
 					<p className='text-base/7 tracking-[0.09px] text-grey md:max-w-xs lg:max-w-sm'>
 						Our marketing and sales automations help you scale your outreach to
 						get more leads for your company.
@@ -66,7 +66,7 @@ const Hero = () => {
 				</div>
 			</div>
 
-			<ul className='flex flex-col items-center text-center gap-8 md:flex-row md:justify-evenly lg:col-auto lg:flex-col lg:text-left lg:items-start lg:gap-16 md:mt-40 lg:mt-28 lg:-ml-20'>
+			<ul className='flex flex-col items-center text-center gap-8 md:flex-row md:justify-evenly lg:col-auto lg:flex-col lg:text-left lg:items-start lg:gap-16 md:mt-40 lg:mt-28 lg:-ml-10'>
 				{metrics.map((metric) => (
 					<li key={metric.title}>
 						<p className='text-5xl/[56px] font-bold text-darkBlue'>

@@ -17,16 +17,19 @@ const Footer = () => {
 			<ul className='flex items-center gap-7'>
 				<li>
 					<Link prefetch={false} href='https://facebook.com'>
+						<span className='sr-only'>Facebook Link</span>
 						<AiFillFacebook className='h-5 w-5 fill-darkBlue hover:fill-darkBlue/50' />
 					</Link>
 				</li>
 				<li>
 					<Link prefetch={false} href='https://twitter.com'>
+						<span className='sr-only'>Twitter Link</span>
 						<AiOutlineTwitter className='h-4 w-5 fill-darkBlue hover:fill-darkBlue/50' />
 					</Link>
 				</li>
 				<li>
 					<Link prefetch={false} href='https://instagram.com'>
+						<span className='sr-only'>Instagram Link</span>
 						<AiOutlineInstagram className='h-5 w-5 fill-darkBlue hover:fill-darkBlue/50' />
 					</Link>
 				</li>
