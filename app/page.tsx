@@ -4,7 +4,7 @@ import Testimony from '@/components/testimony'
 
 export default function Home() {
 	return (
-		<main>
+		<main className='min-h-screen'>
 			<section className='px-4 md:px-10 lg:px-40'>
 				<Hero />
 			</section>

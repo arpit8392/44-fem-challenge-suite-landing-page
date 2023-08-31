@@ -16,17 +16,17 @@ const Footer = () => {
 			<p className='text-sm text-grey tracking-wide'>Copyright - Suite</p>
 			<ul className='flex items-center gap-7'>
 				<li>
-					<Link href={'#'}>
+					<Link prefetch={false} href='https://facebook.com'>
 						<AiFillFacebook className='h-5 w-5 fill-darkBlue hover:fill-darkBlue/50' />
 					</Link>
 				</li>
 				<li>
-					<Link href={'#'}>
+					<Link prefetch={false} href='https://twitter.com'>
 						<AiOutlineTwitter className='h-4 w-5 fill-darkBlue hover:fill-darkBlue/50' />
 					</Link>
 				</li>
 				<li>
-					<Link href={'#'}>
+					<Link prefetch={false} href='https://instagram.com'>
 						<AiOutlineInstagram className='h-5 w-5 fill-darkBlue hover:fill-darkBlue/50' />
 					</Link>
 				</li>
