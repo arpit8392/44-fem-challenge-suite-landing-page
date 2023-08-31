@@ -24,6 +24,9 @@ const config: Config = {
 				'curved-pattern-2': 'url("/public/assets/pattern-curved-line-2.svg")',
 				'blur-pattern': 'url("/public/assets/pattern-blur.svg")',
 			},
+			content: {
+				'curved-pattern-1': 'url("/assets/pattern-curved-line-1.svg")',
+			},
 		},
 	},
 	plugins: [require('tailwindcss-animate')],

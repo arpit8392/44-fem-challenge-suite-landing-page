@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Testimony = () => {
 	return (
-		<section className='bg-darkBlue text-creamWhite rounded-2xl px-4 py-16 flex flex-col items-center gap-10 lg:flex-row lg:py-0 lg:px-32 lg:justify-center'>
+		<div className='bg-darkBlue text-creamWhite rounded-2xl px-4 md:px-14 py-16 flex flex-col items-center gap-10 lg:flex-row lg:py-0 lg:px-32 lg:justify-center'>
 			<div className='-mt-60 md:bg-blur-pattern lg:-mt-10'>
 				<Image
 					src={'/assets/image-jeremy-small.png'}
@@ -52,7 +52,7 @@ const Testimony = () => {
 					<p className='text-cream tracking-[2.5px]'>CMO, FYLO</p>
 				</div>
 			</div>
-		</section>
+		</div>
 	)
 }
 export default Testimony
